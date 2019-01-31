@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="verifica3.js" ></script>
+         <style>
+            input{min-width: 150px}
+            #dpax {
+                width: 300px;
+                height: 300px;
+                background-color: brown;
+                
+               
+            }
+            #dpav{
+                width: 100px;
+                height: 200px;
+                background-color: brown;
+               
+               
+                
+            }
+            
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <div>
+            <input type="text" id="ins_larghezza" placeholder="larghezza"/>
+            <br>    
+            <input type="text" id="ins_lunghezza" placeholder="lunghezza"/>
+            <br>
+            <input type="text" id="costo_mq" placeholder="costo_mq"/>
+            <br>
+            <input type="text" id="nome_copertura" placeholder="nome copertura"/>
+            <input type="button" onclick="creaPavimento" value="crea pavimento">
+            <span id="sp_totale">Totale</span>
+            <div id="div_ris">Risultato</div>
+        </div>
+        <div id="dpav"></div>
+        <div id="dpax"></div>
+    </body>
+</html>
